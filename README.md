@@ -1,1 +1,1 @@
-Visist the website: https://kchao1.github.io
+Visit the website: https://kchao1.github.io
