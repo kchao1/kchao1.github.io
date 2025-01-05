@@ -6,20 +6,21 @@
             color: #333;
         }
 
+
         header {
             text-align: center;
-            padding: 1rem;
+            padding: 1rem; /*scales the padding off of 1x fontsize of root element*/
             background: #f4f4f4;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #ccc; /*draws a horizontal blue line ( bot of the element border)*/
         }
 
         header h1 {
-            margin: 0.5rem 0;
+            margin: 0.5rem 0; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
         }
 
         header p a {
             color: #0077cc;
-            text-decoration: none;
+            text-decoration: none; /*no underlines or strikethrough, etc text*/
         }
 
         header p a:hover {
@@ -29,7 +30,7 @@
         main {
             padding: 2rem;
             max-width: 800px;
-            margin: auto;
+            margin: auto; /*auto sizes margins for diff devices*/
         }
 
         section {
@@ -39,6 +40,11 @@
         h2 {
             border-bottom: 2px solid #0077cc;
             padding-bottom: 0.5rem;
+        }
+
+        h3{
+            font-weight: normal;
+            padding-bottom:0.01rem;
         }
 
         ul {
