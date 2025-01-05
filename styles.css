@@ -15,7 +15,7 @@
         }
 
         header h1 {
-            margin: 0.5rem 0; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
+            margin: 0rem 0; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
         }
 
         header p a {
@@ -28,23 +28,23 @@
         }
 
         main {
-            padding: 2rem;
+            padding: 0rem 2rem 0rem 2rem; /*top right bot left*/
             max-width: 800px;
             margin: auto; /*auto sizes margins for diff devices*/
         }
 
         section {
-            margin-bottom: 2rem;
+            margin-bottom: 0rem - 5rem;
         }
 
         h2 {
             border-bottom: 2px solid #0077cc;
-            padding-bottom: 0.5rem;
+            padding-bottom: 0rem;
         }
 
         h3{
             font-weight: normal;
-            padding-bottom:0.01rem;
+            padding-bottom:0rem;
         }
 
         ul {
