@@ -158,8 +158,6 @@
             margin: 1rem 0 1rem 0.5rem;
         }
 
-       
-
         footer {
             text-align: center;
             padding: 0.75rem;
@@ -167,3 +165,29 @@
             border-top: 1px solid #ccc;
             margin-top: 2rem;
         }
+
+        /*GALLERY CSS*/
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; /* Wrap images to the next line if needed */
+            gap: 1rem; /* Add spacing between images */
+            justify-content: center; /* Center the gallery images */
+        }
+        
+        .gallery img {
+            max-width: 300px; /* Limit the maximum width of images */
+            height: auto; /* Maintain the aspect ratio */
+            border: 2px solid #ccc; /* Optional: Add a border to images */
+            border-radius: 5px; /* Optional: Add rounded corners */
+            transition: transform 0.3s; /* Smooth scaling effect */
+        }
+
+        .gallery-h {
+            padding:0rem 0rem 2rem 0rem;
+        }
+
+
+       
+
+        
