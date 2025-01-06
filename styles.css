@@ -25,7 +25,7 @@
             /* background: #f4f4f4; */
             background:white;
             border-bottom: 1px solid #ccc; 
-            margin-bottom: -0.5rem;
+            margin-bottom: 0rem;
             justify-content: center;
         }
 
@@ -46,12 +46,12 @@
             
             
 
-            max-width: 800px;
+            width:100%;
             margin: 0rem 0rem 0rem 0rem; /*adds space outside element. auto sizes margins for diff devices*/
             background:#0077cc;
             
             align-items:center;
-            justify-content:space-evenly;
+            justify-content:center;
             display:flex; /*creates a flexbox for it's children (nav ul)*/
             height:4rem;
            
@@ -65,7 +65,7 @@
             display: flex; /* Turns the <ul> into a flex container */
             flex: 1 1 auto; /*This flexbox can grow equally (1), shrink equally (1), and will auto adjust*/
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: center;
             height:100%;
             width:100%;
 
@@ -85,7 +85,7 @@
             height:100%;
             align-items: center;
             text-align: center;
-            justify-content: space-evenly;
+            justify-content: center;
             
             /* background-color: gray; */
            color:white;
