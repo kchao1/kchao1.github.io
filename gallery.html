@@ -26,14 +26,26 @@
         
         
         <section class="gallery">
-            <img src="images/test_image.png" alt="test_image">
-            <img src="images/test_image3.JPG" alt="test_image3">
-            <img src="images/test_image2.jpeg" alt="test_image2">
-            <img src="images/test_image4.jpeg" alt="test_image4">
-            <img src="images/test_image5.JPG" alt="test_image5">
-            <img src="images/test_image6.JPG" alt="test_image6">
-            <img src="images/test_image7.JPG" alt="test_image7">
-            <img src="images/test_image8.JPG" alt="test_image8">
+            <img src="images/test_image.png" alt="test_image" class="hidden">
+            <img src="images/test_image3.JPG" alt="test_image3" class="hidden">
+            <img src="images/test_image2.jpeg" alt="test_image2" class="hidden">
+            <img src="images/test_image4.jpeg" alt="test_image4" class="hidden">
+            <img src="images/test_image5.JPG" alt="test_image5" class="hidden">
+            <img src="images/test_image6.JPG" alt="test_image6" class="hidden">
+            <img src="images/test_image7.JPG" alt="test_image7" class="hidden">
+            <img src="images/test_image8.JPG" alt="test_image8" class="hidden">
+            <script>
+                const images = document.querySelectorAll('.gallery img');
+                let delay = 500; // Delay in milliseconds
+        
+                images.forEach((img, index) => {
+                    setTimeout(() => {
+                        img.src = img.dataset.src; // Load the image
+                        img.classList.remove('hidden');
+                        img.classList.add('visible');
+                    }, delay * index); // Delay each image load
+                });
+            </script>
 
            
         </section>
