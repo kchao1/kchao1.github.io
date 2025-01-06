@@ -41,10 +41,14 @@
                 images.forEach((img, index) => {
                     setTimeout(() => {
                         img.src = img.dataset.src; // Load the image
-                        img.classList.remove('hidden');
-                        img.classList.add('visible');
-                    }, delay * index); // Delay each image load
-                });
+                        img.onload = () => { // Wait until the image is fully loaded
+                            setTimeout(() => {
+                                img.classList.remove('hidden');
+                                img.classList.add('visible');
+                            }, 100); // Small delay to ensure transition is smooth
+                        };
+    }, delay * index);
+});
             </script>
 
            
