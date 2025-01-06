@@ -168,10 +168,29 @@
 
         /*GALLERY CSS*/
 
+       
+
+        /* #gallery-body{
+            max-width: 80%;
+        }  */
+
+        #gallery-main{
+            max-width:90%;
+            padding: 0rem 2rem;
+            margin:0rem;
+        }
+
+         #gallery-header{
+            background-color: var(--blue);
+            color:white;
+            padding:0rem;
+            margin:0rem;
+        } 
+
         .gallery {
             display: flex;
             flex-wrap: wrap; /* Wrap images to the next line if needed */
-            gap: 0.25rem; /* Add spacing between images */
+            gap: 0.5rem; /* Add spacing between images */
             justify-content: left; /* Center the gallery images */
         }
         
@@ -188,17 +207,6 @@
         .gallery-h {
             padding:0rem 0rem 2rem 0rem;
         }
-
-        /* #gallery-main{
-            background-color: var(--off-white);
-        } */
-
-         #gallery-header{
-            background-color: var(--blue);
-            color:white;
-            padding:0rem;
-            margin:0rem;
-        } 
 
        
 
