@@ -171,7 +171,7 @@
         .gallery {
             display: flex;
             flex-wrap: wrap; /* Wrap images to the next line if needed */
-            gap: 1rem; /* Add spacing between images */
+            gap: 0.25rem; /* Add spacing between images */
             justify-content: left; /* Center the gallery images */
         }
         
@@ -180,8 +180,8 @@
             max-width: 100%; /* Limit the maximum width of images */
             max-height:300px;
             height: auto; /* Maintain the aspect ratio */
-            border: 2px solid #ccc; /* Optional: Add a border to images */
-            border-radius: 5px; /* Optional: Add rounded corners */
+            /* border: 2px solid #ccc; Optional: Add a border to images */
+            /* border-radius: 5px; Optional: Add rounded corners */
             transition: transform 0.3s; /* Smooth scaling effect */
         }
 
@@ -189,6 +189,16 @@
             padding:0rem 0rem 2rem 0rem;
         }
 
+        /* #gallery-main{
+            background-color: var(--off-white);
+        } */
+
+         #gallery-header{
+            background-color: var(--blue);
+            color:white;
+            padding:0rem;
+            margin:0rem;
+        } 
 
        
 
