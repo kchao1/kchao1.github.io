@@ -172,11 +172,13 @@
             display: flex;
             flex-wrap: wrap; /* Wrap images to the next line if needed */
             gap: 1rem; /* Add spacing between images */
-            justify-content: center; /* Center the gallery images */
+            justify-content: left; /* Center the gallery images */
         }
         
         .gallery img {
-            max-width: 300px; /* Limit the maximum width of images */
+            
+            max-width: 100%; /* Limit the maximum width of images */
+            max-height:300px;
             height: auto; /* Maintain the aspect ratio */
             border: 2px solid #ccc; /* Optional: Add a border to images */
             border-radius: 5px; /* Optional: Add rounded corners */
