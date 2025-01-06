@@ -24,7 +24,7 @@
             padding: 0rem; /*scales the padding off of 0x fontsize of root element*/
             /* background: #f4f4f4; */
             background:white;
-            border-bottom: 1px solid #ccc; 
+            /* border-bottom: 1px solid #ccc;  */
             margin-bottom: 0rem;
             justify-content: center;
         }
@@ -78,7 +78,7 @@
             
             
         }
-
+        /*PLACEHOLDER LINK THINGS*/
         nav ul li { 
             flex: 1 1 auto;
             display:flex;
@@ -91,9 +91,7 @@
            color:white;
             
         }  
-       
-
-        nav ul li:hover { /*activates this style when mouse hovering over list item*/
+          nav ul li:hover { /*activates this style when mouse hovering over list item*/
             
             background-color: white; /* Changes the background color */
             color: var(--blue); /* Changes the text color */
@@ -101,6 +99,28 @@
             
         }
 
+        /*CLICKABLE LINK STYLING*/
+        nav ul li a{ 
+            flex: 1 1 auto;
+            text-decoration: none; /*no text underline*/
+            display:flex;
+            height:100%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            
+            /* background-color: gray; */
+           color:white;
+            
+        }  
+
+        nav ul li a:hover { /*activates this style when mouse hovering over list item*/
+            
+            background-color: white; /* Changes the background color */
+            color: var(--blue); /* Changes the text color */
+            cursor: pointer; /* Changes the cursor to a pointer for better UX */
+            
+        }
 
 
         main {
