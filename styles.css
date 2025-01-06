@@ -1,3 +1,15 @@
+        :root { 
+            /*defines vars and the colors each represents*/
+            --blue: #0077cc;
+            --dark-gray: #3f4756;
+            --light-gray: #a3abbd;
+            --dark-brown: #956e13;
+            --light-brown: #cfa149;
+            --cream:#fffdd0;
+            --off-white:#FFFDE7;
+
+        }
+        
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -10,12 +22,15 @@
         header {
             text-align: center;
             padding: 0rem; /*scales the padding off of 0x fontsize of root element*/
-            background: #f4f4f4;
+            /* background: #f4f4f4; */
+            background:white;
             border-bottom: 1px solid #ccc; 
+            margin-bottom: -0.5rem;
+            justify-content: center;
         }
 
         header h1 {
-            margin: 0rem 0rem; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
+            margin: 0rem 0rem 0rem 0rem; /*specifies top right bot left margins
         }
 
         header p a { 
@@ -28,17 +43,65 @@
         }
 
         nav {
-            padding: 0rem 2rem 1rem 2rem; /*top right bot left*/
+            
             
 
             max-width: 800px;
-            margin: auto; /*auto sizes margins for diff devices*/
+            margin: 0rem 0rem 0rem 0rem; /*adds space outside element. auto sizes margins for diff devices*/
             background:#0077cc;
+            
+            align-items:center;
+            justify-content:space-evenly;
+            display:flex; /*creates a flexbox for it's children (nav ul)*/
+            height:4rem;
+           
         }
 
-        #nav-text {
-            color:white 
+        nav ul{
+            font-size:1rem;
+            
+            
+            list-style-type:none;
+            display: flex; /* Turns the <ul> into a flex container */
+            flex: 1 1 auto; /*This flexbox can grow equally (1), shrink equally (1), and will auto adjust*/
+            align-items: center;
+            justify-content: space-evenly;
+            height:100%;
+            width:100%;
+
+            padding:0rem;
+            margin:0rem;
+
+            
+      
+            
+            
+            
         }
+
+        nav ul li { 
+            flex: 1 1 auto;
+            display:flex;
+            height:100%;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            
+            /* background-color: gray; */
+           color:white;
+            
+        }  
+       
+
+        nav ul li:hover { /*activates this style when mouse hovering over list item*/
+            
+            background-color: white; /* Changes the background color */
+            color: var(--blue); /* Changes the text color */
+            cursor: pointer; /* Changes the cursor to a pointer for better UX */
+            
+        }
+
+
 
         main {
             padding: 0rem 2rem 0rem 2rem; /*top right bot left*/
@@ -47,6 +110,7 @@
         }
 
         section {
+            background:white;
             margin-bottom: 0rem;
         }
 
@@ -78,8 +142,8 @@
 
         footer {
             text-align: center;
-            padding: 1rem;
+            padding: 0.75rem;
             background: #f4f4f4;
             border-top: 1px solid #ccc;
-            margin-top: 2rem;
+            margin-top: 1rem;
         }
