@@ -202,7 +202,7 @@
             height: auto; /* Maintain the aspect ratio */
             /* border: 2px solid #ccc; Optional: Add a border to images */
             /* border-radius: 5px; Optional: Add rounded corners */
-            transition: transform 0.3s; /* Smooth scaling effect */
+            /* transition: transform 0.3s; Smooth scaling effect */
         }
 
         .gallery-h {
