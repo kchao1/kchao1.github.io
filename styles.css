@@ -11,20 +11,33 @@
             text-align: center;
             padding: 0rem; /*scales the padding off of 1x fontsize of root element*/
             background: #f4f4f4;
-            border-bottom: 1px solid #ccc; /*draws a horizontal blue line ( bot of the element border)*/
+            border-bottom: 1px solid #ccc; 
         }
 
         header h1 {
-            margin: 0rem 0; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
+            margin: 0rem 0rem; /*specifies top and bot margins to be 0.5rem but 0rem for left/right*/
         }
 
         header p a {
-            color: #0077cc;
+            color: #0077cc; /*draws a horizontal blue line ( bot of the element border)*/
             text-decoration: none; /*no underlines or strikethrough, etc text*/
         }
 
         header p a:hover {
             text-decoration: underline;
+        }
+
+        nav {
+            padding: 0rem 2rem 1rem 2rem; /*top right bot left*/
+            
+
+            max-width: 800px;
+            margin: auto; /*auto sizes margins for diff devices*/
+            background:#0077cc;
+        }
+
+        #nav-text {
+            color:white 
         }
 
         main {
