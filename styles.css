@@ -222,14 +222,17 @@
         }
 
         /*HOME STYLE*/
-        #main-home{
-            justify-content:center;
+        .home-section{
+            display:flex;
+            justify-content:left;
         }
 
-       .home-image{
-        width:auto;
-        height:auto;
         
+
+       .home-image{
+        width:100%;
+        height:auto;
+        display: flex;
         justify-content:center;
        }
 
