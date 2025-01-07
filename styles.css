@@ -175,17 +175,19 @@
         }  */
 
         #gallery-main{
-            max-width:90%;
+            max-width:100%;
             padding: 0rem 2rem;
             margin:0rem;
             justify-content:center;
+            align-items:center;
         }
 
-         #gallery-header{
-            background-color: var(--blue);
-            color:white;
+         #gallery-header h2{
+            background-color: white;
+            color:var(--blue);
             padding:0rem;
             margin:0rem;
+            border-bottom: white;
         } 
 
         .gallery {
