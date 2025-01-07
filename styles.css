@@ -226,11 +226,12 @@
             justify-content:center;
         }
 
-       /* .home-image{
-        border-radius: 2%;
+       .home-image{
+        width:auto;
+        height:auto;
         
         justify-content:center;
-       } */
+       }
 
        
 
