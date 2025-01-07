@@ -182,7 +182,7 @@
             align-items:center;
         }
 
-         #gallery-header h2{
+         .page-header h2{
             background-color: white;
             color:var(--blue);
             padding:0rem;
